@@ -1,0 +1,53 @@
+.home-header {
+  font-size: 50px;
+}
+
+.home-main-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-cta {
+  width: 10rem;
+  height: 3rem;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  background-color: #ee6258;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-details {
+  line-height: 2;
+}
+
+.hero-cta:hover {
+  border: 1px solid #ee6258;
+  color: #ee6258;
+  background: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.numbers-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 0.5;
+}
+.numbers-one-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers-header {
+  color: #ee6258;
+}
+
+.numbers {
+  color: #7d7e77;
+}

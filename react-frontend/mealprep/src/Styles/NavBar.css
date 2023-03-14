@@ -8,20 +8,22 @@
   width: 300px;
   height: 40px;
   box-shadow: none;
-  border: none;
+  border: 1px solid #ee6258;
   border-radius: 20px;
-  background-color: #ee6258;
   padding: 20px;
-  color: #ffff;
+  color: #ee6258;
   outline: none;
 }
 
 .search-bar::placeholder {
-  color: #fff;
+  color: #ee6258;
 }
 
 .search-box {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.search-icon {
+  color: #ee6258;
 }

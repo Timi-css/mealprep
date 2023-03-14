@@ -39,7 +39,10 @@ const NavBar = () => {
       <div className="search-box">
         <input className="search-bar" type="search" placeholder="Search" />
         <i>
-          <SearchIcon sx={{ width: "30px", height: "50px" }} />
+          <SearchIcon
+            className="search-icon"
+            sx={{ width: "30px", height: "50px" }}
+          />
         </i>
       </div>
     </Stack>
